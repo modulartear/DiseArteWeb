@@ -447,4 +447,23 @@
   .contact-left, .contact-form { padding: 32px; }
   .hero-stats { gap: 24px; }
   .nav-controls { top: 16px; right: 16px; }
+  .nav-controls { gap: 10px; }
+  .lang { font-size: 11px; }
+  .lang button { padding: 6px 10px; }
+  .nav-cta { padding: 11px 14px; font-size: 13.5px; }
+  .hero { padding-top: 130px; }
+  .hero-cta { margin-top: 32px; }
+}
+
+@media (max-width: 420px) {
+  .nav-logo { width: 180px; }
+  .menu-toggle { left: 16px; top: 16px; width: 42px; height: 42px; }
+  .nav.open .nav-menu .nav-link { font-size: 20px; }
+  .hero { padding-top: 118px; }
+  .hero h1 { font-size: clamp(38px, 10vw, 96px); }
+  .hero-badge { font-size: 11px; padding: 7px 14px; }
+  .hero-cta { gap: 12px; margin-top: 28px; }
+  .hero-stats { gap: 18px; margin-top: 42px; }
+  .contact-left, .contact-form { padding: 24px; }
+  .bot { right: 12px; bottom: 12px; width: min(92vw, 360px); }
 }

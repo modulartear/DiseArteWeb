@@ -218,6 +218,16 @@ section { position: relative; }
 }
 .btn-ghost:hover { border-color: rgba(39,227,255,.5); box-shadow: 0 0 0 1px rgba(39,227,255,.25), 0 0 24px rgba(39,227,255,.15); }
 
+@media (max-width: 720px) {
+  .wrap { padding: 0 18px; }
+  .btn { padding: 12px 18px; font-size: 14px; }
+}
+
+@media (max-width: 420px) {
+  .wrap { padding: 0 16px; }
+  .btn { padding: 11px 16px; font-size: 13.5px; }
+}
+
 /* Glass card */
 .card {
   position: relative;
