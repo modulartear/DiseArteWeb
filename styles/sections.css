@@ -441,16 +441,12 @@
   .nav.open .nav-menu { display: flex; flex-direction: column; gap: 6px; position: fixed; inset: 0; top: 0; background: rgba(7,9,13,.97); backdrop-filter: blur(20px); justify-content: center; z-index: 805; }
   .nav.open .nav-menu .nav-link { font-size: 24px; }
   .menu-toggle { display: grid; place-items: center; position: fixed; top: 20px; left: 22px; z-index: 860; width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255,255,255,.03); color: var(--ink); backdrop-filter: blur(8px); }
+  .nav-controls { display: none; }
   .why-grid, .svc-grid, .tst-grid { grid-template-columns: 1fr; }
   .process-row { grid-template-columns: 60px 1fr; gap: 16px; }
   .process-row p { grid-column: 1 / -1; }
   .contact-left, .contact-form { padding: 32px; }
   .hero-stats { gap: 24px; }
-  .nav-controls { top: 16px; right: 16px; }
-  .nav-controls { gap: 10px; }
-  .lang { font-size: 11px; }
-  .lang button { padding: 6px 10px; }
-  .nav-cta { padding: 11px 14px; font-size: 13.5px; }
   .hero { padding-top: 130px; }
   .hero-cta { margin-top: 32px; }
 }
